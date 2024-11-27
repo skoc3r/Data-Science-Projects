@@ -22,3 +22,9 @@ This repository contains a collection of machine learning projects that demonstr
   - Visualizing training performance
   - Real-time image prediction
 - **Directory**: `image-classification-cnn/`
+
+## How to Use
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/machine-learning-projects.git
+   cd machine-learning-projects
