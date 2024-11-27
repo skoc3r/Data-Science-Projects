@@ -12,8 +12,7 @@ This repository contains a collection of machine learning projects that demonstr
   - Feature engineering
   - Model training and evaluation
   - Visualizations and insights
-- **Directory**: `churn-analysis/`
-
+    
 ### 2. Image Classification Using CNN
 - **Description**: Implements an image classification model using a Convolutional Neural Network (CNN) on the CIFAR-10 dataset.
 - **Tools Used**: Python, TensorFlow, Keras, Matplotlib, NumPy
@@ -21,7 +20,7 @@ This repository contains a collection of machine learning projects that demonstr
   - Training a CNN model
   - Visualizing training performance
   - Real-time image prediction
-- **Directory**: `image-classification-cnn/`
+
 
 ## How to Use
 1. Clone the repository:
