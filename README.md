@@ -6,7 +6,7 @@ This repository contains a collection of machine learning projects that demonstr
 
 ### 1. Churn Analysis
 - **Description**: Analyzes customer churn using machine learning techniques to predict whether a customer is likely to leave a service.
-- **Tools Used**: Python, Pandas, Scikit-learn, Matplotlib, Seaborn
+- **Tools Used**: Python, Pandas, Scikit-learn, Matplotlib
 - **Key Features**:
   - Data cleaning and preprocessing
   - Feature engineering
