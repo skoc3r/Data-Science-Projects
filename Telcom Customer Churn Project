@@ -6,7 +6,7 @@ from sklearn.metrics import accuracy_score, confusion_matrix, classification_rep
 import matplotlib.pyplot as plt
 import numpy as np
 
-# Load the dataset
+
 data = pd.read_csv('/home/squid/Downloads/archive/WA_Fn-UseC_-Telco-Customer-Churn.csv')
 
 print(data.head())
@@ -33,7 +33,7 @@ data_copy = pd.get_dummies(data_copy, drop_first=True)
 # Check for any remaining missing values and impute if necessary
 data_copy.fillna(data_copy.median(), inplace=True)
 
-# Split the data into features (X) and target (y)
+# Split the data into X and Y
 X = data_copy.drop('Churn', axis=1)
 y = data_copy['Churn']
 
