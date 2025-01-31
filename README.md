@@ -1,6 +1,6 @@
 # Data Science Projects
 
-This repository contains a collection of machine learning projects that demonstrate various skills in data analysis, modeling, and deployment.
+This repository contains a collection of Data Science projects that demonstrate various skills in data analysis, modeling, and deployment.
 
 ## Projects
 
