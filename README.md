@@ -13,13 +13,15 @@ This repository contains a collection of machine learning projects that demonstr
   - Model training and evaluation
   - Visualizations and insights
     
-### 2. Image Classification Using CNN
-- **Description**: Implements an image classification model using a Convolutional Neural Network (CNN) on the CIFAR-10 dataset.
-- **Tools Used**: Python, TensorFlow, Keras, Matplotlib, NumPy
+### 2. Exoplanet ESI Ranking
+- **Description**: Computes the Earth Similarity Index (ESI) for exoplanets based on their stellar flux and planetary radius, ranking the most Earth-like candidates.
+- **Tools Used**: Python, Pandas, NumPy, Seaborn, Matplotlib
 - **Key Features**:
-  - Training a CNN model
-  - Visualizing training performance
-  - Real-time image prediction
+  - Cleans and preprocesses exoplanet data
+  - Computes ESI using a mathematical formula
+  - Ranks exoplanets by ESI
+  - Saves the top 10 Earth-like planets in a CSV file
+  - Generates a scatter plot to visualize ESI distribution
 
 
 ## How to Use
