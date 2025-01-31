@@ -26,5 +26,5 @@ This repository contains a collection of machine learning projects that demonstr
 ## How to Use
 1. Clone the repository:
    ```bash
-   git clone https://github.com/skoc3r/machine-learning-projects.git
-   cd machine-learning-projects
+   git clone https://github.com/skoc3r/Data-Science-projects.git
+   cd Data-Science-Projects
