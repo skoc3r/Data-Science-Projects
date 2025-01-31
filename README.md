@@ -14,7 +14,7 @@ This repository contains a collection of Data Science projects that demonstrate 
   - Visualizations and insights
     
 ### 2. Exoplanet ESI Ranking
-- **Description**:  This project analyzes exoplanetary data to compute the Earth Similarity Index (ESI), a quantitative measure of how similar an exoplanet is to Earth based on its stellar flux and planetary radius. The analysis ranks exoplanets by their ESI score, identifying the most potentially habitable candidates.
+- **Description**:  This project analyzes exoplanetary data from the NASA Exoplanet Archive to compute the Earth Similarity Index (ESI), a quantitative measure of how similar an exoplanet is to Earth based on its stellar flux and planetary radius. The analysis ranks exoplanets by their ESI score, identifying the most potentially habitable candidates.
 - **Tools Used**: Python, Pandas, NumPy, Seaborn, Matplotlib
 - **Key Features**:
   - Preprocesses exoplanet data by handling missing values and removing duplicate observations
