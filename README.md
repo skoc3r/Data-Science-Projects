@@ -12,7 +12,7 @@ and stores it in a structured format for further analysis.
   - Data Extraction – Fetches asteroid close-approach data from NASA's API.
   - Data Transformation – Converts JSON response into a structured DataFrame.
   - Data Cleaning – Ensures valid datetime formatting and removes invalid records.
-  - Data Storage – Saves cleaned data into a PostgreSQL database.
+  - Data Storage – Stores the final dataset in a PySpark DataFrame for analysis.
   - Scalability – Uses PySpark for efficient big data processing.
     
 ### 2. Exoplanet ESI Ranking
