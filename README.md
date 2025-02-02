@@ -7,7 +7,7 @@ This repository contains a collection of Data Science projects that demonstrate 
 ### 1. Near Eart Object (NEO) ETL Pipeline
 - **Description**: This project extracts, transforms, and loads (ETL) data from NASA's Near-Earth Object (NEO) API to analyze asteroid close approaches. The pipeline collects asteroid data, cleans and formats it, 
 and stores it in a structured format for further analysis.
-- **Tools Used**: Python, Pandas, PySpark, Requests, PostgreSQL
+- **Tools Used**: Python, Pandas, PySpark, Requests
 - **Key Features**
   - Data Extraction – Fetches asteroid close-approach data from NASA's API.
   - Data Transformation – Converts JSON response into a structured DataFrame.
