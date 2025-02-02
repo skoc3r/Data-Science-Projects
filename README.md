@@ -4,14 +4,16 @@ This repository contains a collection of Data Science projects that demonstrate 
 
 ## Projects
 
-### 1. Churn Analysis
-- **Description**: Analyzes customer churn using machine learning techniques to predict whether a customer is likely to leave a service.
-- **Tools Used**: Python, Pandas, Scikit-learn, Matplotlib
-- **Key Features**:
-  - Data cleaning and preprocessing
-  - Feature engineering
-  - Model training and evaluation
-  - Visualizations and insights
+### 1. Near Eart Object (NEO) ETL Pipeline
+**Description**: This project extracts, transforms, and loads (ETL) data from NASA's Near-Earth Object (NEO) API to analyze asteroid close approaches. The pipeline collects asteroid data, cleans and formats it, 
+and stores it in a structured format for further analysis.
+**Tools Used**: Python, Pandas, PySpark, Requests, PostgreSQL
+**Key Features**
+  - Data Extraction – Fetches asteroid close-approach data from NASA's API.
+  - Data Transformation – Converts JSON response into a structured DataFrame.
+  - Data Cleaning – Ensures valid datetime formatting and removes invalid records.
+  - Data Storage – Saves cleaned data into a PostgreSQL database.
+  - Scalability – Uses PySpark for efficient big data processing.
     
 ### 2. Exoplanet ESI Ranking
 - **Description**:  This project analyzes exoplanetary data from the NASA Exoplanet Archive to compute the Earth Similarity Index (ESI), a quantitative measure of how similar an exoplanet is to Earth based on its stellar flux and planetary radius. The analysis ranks exoplanets by their ESI score, identifying the most potentially habitable candidates.
