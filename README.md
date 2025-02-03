@@ -15,7 +15,7 @@ and stores it in a structured format for further analysis.
   - Data Storage – Stores the final dataset in a PySpark DataFrame for analysis.
   - Scalability – Uses PySpark for efficient big data processing.
     
-### 2. Exoplanet ESI Ranking
+### 2. Exoplanet ESI Analysis
 - **Description**:  This project analyzes exoplanetary data from the NASA Exoplanet Archive to compute the Earth Similarity Index (ESI), a quantitative measure of how similar an exoplanet is to Earth based on its stellar flux and planetary radius. The analysis ranks exoplanets by their ESI score, identifying the most potentially habitable candidates.
 - **Tools Used**: Python, Pandas, NumPy, Seaborn, Matplotlib
 - **Key Features**:
