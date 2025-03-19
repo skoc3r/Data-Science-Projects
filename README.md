@@ -10,7 +10,7 @@ This repository contains a collection of Data Science projects that demonstrate 
 - **Key Features**:
   - Preprocesses CMS claims data by filtering out non-ICD9 columns and labelling diagnosis and procedure codes.
   - Leverages PySpark DataFrame operations to efficiently process large-scale healthcare datasets.
-  - Implements the FPGrowth algorithm to mine frequent item sets and extract meaningful association rules.
+  - Implements the FPGrowth to mine frequent item sets and extract meaningful association rules.
   - Ranks association rules by support, confidence, and lift to highlight significant patterns in patient care.
     
 ### 2. Exoplanet ESI Analysis
