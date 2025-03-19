@@ -23,6 +23,15 @@ and stores it in a structured format for further analysis.
   - Identifies and ranks the top 10 exoplanets with the highest Earth similarity
   - Visualizes the ESI distribution to highlight trends in planetary characteristics
 
+### 3. Centers for Medicaid and Medicare Services Claims Data Analysis with PySpark and FPGrowth
+- **Description**: This project processes CMS inpatient claims data (2008–2010) to uncover hidden patterns in ICD9 diagnosis and procedure codes using the FPGrowth algorithm. The pipeline cleans raw claims data, standardizes codes, and extracts frequent item sets and association rules to reveal significant healthcare trends.
+- **Tools Used**: Python, PySpark, Pandas, NumPy
+- **Key Features**:
+  - Preprocesses CMS claims data by filtering out non-ICD9 columns and labelling diagnosis and procedure codes.
+  - Leverages PySpark DataFrame operations to efficiently process large-scale healthcare datasets.
+  - Implements the FPGrowth algorithm to mine frequent item sets and extract meaningful association rules.
+  - Ranks association rules by support, confidence, and lift to highlight significant patterns in patient care.
+
 
 ## How to Use
 1. Clone the repository:
