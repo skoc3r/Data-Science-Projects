@@ -32,6 +32,14 @@ and stores it in a structured format for further analysis.
   - Data Storage – Stores the final dataset in a PySpark DataFrame for analysis.
   - Scalability – Uses PySpark for efficient big data processing.
 
+### 4. Dementia Classification Using Machine Learning
+- **Description**: This project develops a machine learning pipeline to classify dementia status using the OASIS-2 longitudinal MRI dataset. The workflow includes exploratory data analysis, preprocessing, categorical feature encoding, KNN-based missing value imputation, feature scaling, and Random Forest classification to predict cognitive status from demographic, clinical, and brain imaging measurements.
+- **Tools Used**: Python, Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
+- **Key Features**:
+  - Performs exploratory data analysis with summary statistics, feature distributions, class balance visualizations, and correlation heatmaps.
+  - Encodes categorical variables and applies stratified train-test splitting to preserve class distributions during model evaluation.
+  - Uses KNN imputation with feature scaling to estimate missing socioeconomic status (SES) and MMSE values while preventing data leakage.
+  - Trains and evaluates a Random Forest classifier, achieving approximately **90.7% test accuracy** on dementia classification.
 
 ## How to Use
 1. Clone the repository:
