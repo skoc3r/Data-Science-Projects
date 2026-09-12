@@ -50,6 +50,15 @@ and stores it in a structured format for further analysis.
   - Dimensional Modeling – Builds a star schema with project fact data and contractor, location, utility, and date dimensions.
   - Business Analysis – Evaluates solar adoption, installation costs, incentives, contractor performance, geographic trends, and utility-level performance.
 
+### 6. CPSC Consumer Product Safety Analysis
+- **Description**: This project extracts and analyzes consumer product recall data from the U.S. Consumer Product Safety Commission (CPSC) REST API to identify trends in product categories and safety hazards. The analysis processes 9,990 recall records across 22 fields and examines category-specific risks in children's clothing, cribs, and bicycles.
+- **Tools Used**: Python, Pandas, Requests, Matplotlib
+- **Key Features**
+  - Data Extraction – Retrieves consumer product recall data directly from the CPSC REST API in JSON format.
+  - Data Transformation – Normalizes nested JSON data and extracts structured product types, recall years, and hazard information using Pandas.
+  - Trend Analysis – Examines recall frequency, common product categories, and prevalent consumer safety hazards.
+  - Category Risk Analysis – Identifies choking and strangulation risks in children's clothing, entrapment hazards in cribs, and fall and vehicle-accident risks associated with bicycles.
+
 ## How to Use
 1. Clone the repository:
    ```bash
