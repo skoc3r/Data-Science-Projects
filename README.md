@@ -41,6 +41,15 @@ and stores it in a structured format for further analysis.
   - Uses KNN imputation with feature scaling to estimate missing socioeconomic status (SES) and MMSE values while preventing data leakage.
   - Trains and evaluates a Random Forest classifier, achieving approximately **90.7% test accuracy** on dementia classification.
 
+### 5. Connecticut Residential Solar Analytics Pipeline
+- **Description**: This project analyzes Connecticut Residential Solar Investment Program (RSIP) data to evaluate solar adoption, installation costs, contractor performance, incentives, and operational efficiency. The pipeline processes more than 48,000 residential solar projects and transforms raw program data into structured, analysis-ready datasets.
+- **Tools Used**: Python, Pandas, SQL, DuckDB
+- **Key Features**
+  - Data Ingestion – Loads residential solar program data into a structured analytics workflow.
+  - Medallion Architecture – Implements Bronze, Silver, and Gold data layers to preserve raw data, apply cleaning and validation, and produce business-ready datasets.
+  - Dimensional Modeling – Builds a star schema with project fact data and contractor, location, utility, and date dimensions.
+  - Business Analysis – Evaluates solar adoption, installation costs, incentives, contractor performance, geographic trends, and utility-level performance.
+
 ## How to Use
 1. Clone the repository:
    ```bash
